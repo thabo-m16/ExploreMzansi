@@ -1,4 +1,4 @@
-# BirthdayCard
+# ExploreMzansi
 Exploring alignment elements further
 
 Aligning Elements:
