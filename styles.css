@@ -1,0 +1,15 @@
+body{
+    margin: 0px; /*This removes the white space from the edges of the page*/
+    background: linear-gradient(135deg, #EDC9AF 0%, #C19A6B 100%);
+    min-height: 100vh;
+}
+
+.animals{
+    background-image: url("images/Big_five_gam.jpg");
+    background-size: cover; /*This will make the background image fit within the container while maintaining its aspect ratio */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    width: auto;
+    margin: auto auto;
+}
