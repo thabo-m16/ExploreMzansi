@@ -2,6 +2,7 @@ body{
     margin: 0px; /*This removes the white space from the edges of the page*/
     background: linear-gradient(135deg, #EDC9AF 0%, #C19A6B 100%);
     min-height: 100vh;
+    color: #fff;
 }
 
 .animals{
@@ -12,4 +13,45 @@ body{
     height: 300px;
     width: auto;
     margin: auto auto;
+}
+
+.headings{
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin: 2px;
+    text-align: center;
+}
+
+.text{
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.provinces{
+    margin: 50px auto;
+    height: 400px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.border{
+    background-image: url("https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SFO9J3ooLDcOdTheFpSPvk7R-NFzM3-N4EECUFbojhrY3Qc1bRcvYxT4nzkYAzirFsLB2Dw0S0buu_JotcDJG0OGSTXmoIf2NnZWYmOWex_JHsZ8feD4w0OYTvYEApUUqqavDfWMlRL-qu=s680-w680-h510-rw");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content:start;
+    align-items: end;
+}
+
+.border gp{
+    background-image: url("https://cdn.britannica.com/01/141501-050-DD0ED300/Durban-beachfront-KwaZulu-Natal-SAf.jpg")
 }
