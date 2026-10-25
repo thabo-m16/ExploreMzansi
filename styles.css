@@ -32,9 +32,8 @@ body{
 
 .provinces{
     margin: 50px auto;
-    height: 400px;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
 }
 .border{
@@ -45,13 +44,13 @@ body{
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 20px;
-    height: 50px;
-    width: 50px;
+    height: 150px;
+    width: 150px;
     display: flex;
     justify-content:start;
     align-items: end;
 }
 
-.border gp{
-    background-image: url("https://cdn.britannica.com/01/141501-050-DD0ED300/Durban-beachfront-KwaZulu-Natal-SAf.jpg")
+p{
+    text-align: center;
 }
