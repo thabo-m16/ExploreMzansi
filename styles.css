@@ -31,16 +31,19 @@ body{
 }
 
 .provinces{
-    margin: 50px auto;
+    margin: 50px 10px auto auto;
     display: flex;
     justify-content:space-evenly;
     align-items: center;
 }
+
+.cities{
+    margin: 3px  10px auto auto;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
 .border{
-    background-image: url("https://lh3.googleusercontent.com/gps-cs-s/ANWiy9SFO9J3ooLDcOdTheFpSPvk7R-NFzM3-N4EECUFbojhrY3Qc1bRcvYxT4nzkYAzirFsLB2Dw0S0buu_JotcDJG0OGSTXmoIf2NnZWYmOWex_JHsZ8feD4w0OYTvYEApUUqqavDfWMlRL-qu=s680-w680-h510-rw");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     border: 2px solid #fff;
     border-radius: 10px;
     padding: 20px;
@@ -49,6 +52,13 @@ body{
     display: flex;
     justify-content:start;
     align-items: end;
+}
+
+.border img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 p{
